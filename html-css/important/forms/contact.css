@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Georgia, "Times New Roman", serif;
+}
+
+form {
+  position: relative;
+  top: 150px;
+  left: 470px;
+  height: 680px;
+  width: 1000px;
+  background-color: #F7F7F7;
+  border: 1px solid #E8E8E8;
+}
+
+form > h1 {
+  position: relative;
+  top: 30px;
+  left: 90px;
+  text-transform: capitalize;
+  font-size: 45px;
+  opacity: 0.4;
+}
+
+form > p {
+  position: relative;
+  top: 30px;
+  left: 90px;
+  width: 950px;
+  opacity: 0.4;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+form > #outter-box {
+  position: relative;
+  top: 50px;
+  left: 20px;
+  width: 960px;
+  border-top: 2px solid #E8E8E8;
+}
+
+form > #outter-box > div {
+  position: relative;
+  top: 30px;
+  height: 70px;
+  text-transform: capitalize;
+  font-size: 20px;
+}
+
+form > #outter-box > div > span {
+  position: relative;
+  left: 20px;
+  opacity: 0.5;
+} 
+
+form > #outter-box > div > input,textarea {
+  position: relative;
+  left: 32px;
+  height: 40px;
+  width: 600px;
+  border: 2px solid #E8E8E8; 
+  font-size: 15px; 
+  resize: none;
+}
+
+form > #outter-box > div:nth-of-type(3) {
+  left: 25px;
+}
+
+form > #outter-box > div:nth-of-type(4) {
+  top: 190px;
+  left: 35px;
+}
+
+form > #outter-box > div:nth-of-type(3) > span {
+  top: -170px;
+}
+
+form > #outter-box > div:nth-of-type(3) > textarea {
+  height: 200px;
+}
+
+form > button {
+  position: relative;
+  top: 240px;
+  left: 170px;
+  padding: 12px 20px;
+  width: 300px;
+  border: none;
+  border-radius: 5px;
+  background-color: #E27575;
+  font-size: 18px;
+  box-shadow: 2px 1px 6px #888;
+}
+
+form > button > a {
+  text-decoration: none;
+  color: #fff;
+}
+
+form > button:hover {
+  cursor: pointer;
+}
+
+form > #outter-box > div:nth-of-type(4) > select {
+  position: relative;
+  left: 33px;
+  height: 45px;
+  width: 603px;
+  border: 2px solid #E8E8E8; 
+  font-size: 15px; 
+}

@@ -1,0 +1,156 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: Lato,sans-serif;
+}
+
+div {
+  background: url("images/header.jpg");
+  height: 200px;
+  margin-top: -30px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 30px;
+  color: white;
+  text-transform: capitalize;
+  padding-top: 85px;
+}
+
+h2 {
+  display: inline-block;
+}
+
+#first-heading {
+  margin: 30px 0 0 -82px;
+  font-size: 25px;
+}
+
+#first-span {
+  float: left;
+  margin: 70px 0 0 141px;
+}
+
+figure {
+  position: absolute;
+}
+
+#first-image {
+  margin: 15px 0 0 100px;
+}
+
+#first-text {
+  margin: 20px 870px 0 100px;
+  text-align: justify;
+  font-size: 17px;
+}
+
+#first-button {
+  margin: 20px 0 0 100px;
+  height: 40px;
+  width: 130px;
+  border-radius: 40px;
+  background-color: white;
+  border: 1px solid red;
+}
+
+#first-button:hover {
+  background-color: red;
+}
+
+#first-button a {
+  text-decoration: none;
+  font-size: 16px;
+  color: red;
+}
+
+#first-button a:hover {
+  color: white;
+}
+
+#second-heading {
+  margin: 625px 0 0 -82px;
+}
+
+#second-span {
+  float: left;
+  margin: 667px 0 0 -78px;
+}
+
+#second-image {
+  margin: 16px 0 0 100px;
+}
+
+#second-text {
+  margin: 20px 850px 0 100px;
+  text-align: justify;
+  font-size: 17px;
+}
+
+#second-button {
+  margin: 20px 0 0 100px;
+  height: 40px;
+  width: 130px;
+  border-radius: 40px;
+  background-color: white;
+  border: 1px solid red;
+}
+
+#second-button:hover {
+  background-color: red;
+}
+
+#second-button a {
+  color: red;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+#second-button a:hover {
+  color: white;
+}
+
+#aside-heading {
+  float: right;
+  margin: -685px 655px 0 0;
+}
+
+.aside-figures {
+  margin: -630px 0 0 1100px;
+}
+
+.aside-images {
+  height: 80%;
+  width: 70%;
+}
+
+#first-aside-image {
+  margin: -650px 400px 0 0;
+}
+
+#first-aside-text {
+  margin-top: 15px;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+#second-aside-image {
+  margin-top: 360px;
+}
+
+#second-aside-text {
+  margin-top: 15px;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+#third-aside-image {
+  margin-top: 725px;
+}
+
+#third-aside-text {
+  margin-top: 15px;
+  font-size: 20px;
+  text-transform: uppercase;
+}

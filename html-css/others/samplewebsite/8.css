@@ -1,0 +1,189 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Mali', cursive;
+  background: linear-gradient(to bottom, #567788 0%,#121f25 100%) no-repeat center center;
+  font-size: 14px;
+  color: #333;
+}
+
+nav {
+  margin: 40px;
+  background-color: #eff4f7;
+  height: 80px;
+  position: relative;
+}
+
+nav > ul {
+  float: right;
+  padding: 20px 20px 0 0;
+}
+
+nav > ul > li {
+  list-style: none;
+  display: inline-block;
+  margin-right: 20px;
+  line-height: 57px;
+}
+
+nav > ul > li > a {
+  text-decoration: none;
+  color: #a4a8a9;
+}
+
+nav > ul > li:hover  {
+  border-bottom: 2px solid aqua;
+  cursor: pointer;
+}
+
+div {
+  position: absolute;
+  background-color: #ea3d51;
+  height: 90px;
+  width: 90px;
+  top: 15px;
+  left: 830px;
+  padding: 20px;
+}
+
+div > h1 {
+  color: #fff;
+  font-size: 50px;
+  font-weight: 900;
+  text-transform: uppercase;
+  position: absolute;
+  top: 100px;
+  left: 30px;
+  letter-spacing: 5px;
+}
+
+main {
+  background-color: #CBD0D9;
+  margin: 120px 160px;
+  width: 80%;
+  height: 1100px;
+}
+
+main > header > h1 {
+  position: relative;
+  font-size: 54px;
+  color: #121f25;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+main > header > h5 {
+  position: relative;
+  color: #6dffb8;
+  font-size: 100px;
+  text-transform: uppercase;
+  top: -60px;
+  left: 650px;
+}
+
+main > figure {
+  background: linear-gradient(to bottom, #eb3c53 0%, #e6135c 100%) no-repeat center center;
+  position: relative;
+  background-color: red;
+  height: 400px;
+  width: 300px;
+  top: 30px;
+  left: 600px;
+  padding: 40px;
+  text-align: center;
+}
+
+main > figure > img {
+  height: 70px;
+  width: 100%;
+  max-width: 70px;
+  margin: 0 115px;
+  border-radius: 50%;
+  display: block;
+}
+
+main > figure > p {
+  color: #fff;
+  font-size: 25px;
+  margin: 10px;
+}
+
+main > figure > figcaption::before {
+  content: "''";
+  font-size: 30px;
+  font-weight: 800px;
+}
+
+main > figure > figcaption::after {
+  content: "''";
+  font-size: 30px;
+  font-weight: 800px;
+}
+
+main > figure > button {
+  background: none;
+  border: 3px solid #70ecff;
+  text-transform: uppercase;
+  margin: 50px;
+  padding: 10px;
+}
+
+main > figure > button:hover {
+  background-color: #70ecff;
+  border: 3px solid #70ecff;
+  cursor: pointer;
+}
+
+main > figure > button > a {
+  text-decoration: none;
+  color: #fff;
+}
+
+main > article {
+  float: right;
+  background-color: #fff;
+  margin: -250px 50px 50px 50px;
+  padding: 30px;
+  height: 530px;
+}
+
+main > article > h3 {
+  position: relative;
+  top: 340px;
+  font-size: 40px;
+  color: #46ee97;
+  text-transform: capitalize;
+}
+
+main > article > p {
+  position: relative;
+  top: 370px;
+  margin-right: 440px;
+}
+
+main > article > button {
+  position: relative;
+  top: 400px;
+  padding: 7px 20px;
+  background: none;
+  border: 2px solid #628291;
+  text-transform: uppercase;
+  color: black;
+}
+
+main > article > button:hover {
+  cursor: pointer;
+  background-color: #628291;
+}
+
+main > article > button:hover a {
+  color: #46ee97;
+}
+
+main > article > button > a {
+  text-decoration: none;
+  color: black;
+}

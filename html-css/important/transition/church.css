@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#heading {
+  text-align: center;
+  font-weight: bold;
+  font-size: 35px;
+  text-transform: capitalize;
+  margin: 30px 0 10px 0;
+}
+
+#wrapper {
+  position: relative;
+  margin-left: 260px;
+  width: 1100px;
+  height: 1010px;
+}
+
+#wrapper > #left-side-content {
+  position: relative;
+  width: 320px;
+  background-color: #000;
+}
+
+#wrapper > #left-side-content > img {
+  width: 300px;
+  margin: 10px;
+}
+
+#wrapper > #left-side-content > img:hover {
+  cursor: pointer;
+}
+
+#wrapper > #right-side-content {
+  position: absolute;
+  top: 0;
+  left: 350px;
+  height: 700px;
+  width: 700px;
+}
+
+#wrapper > #right-side-content > img {
+  width: 700px;
+  position: absolute;
+  border-radius: 25px;
+  visibility: hidden;
+}
+
+#wrapper > #right-side-content > #hidden-florence {
+  visibility: visible;
+}
+
+#wrapper > #right-side-content > p {
+  position: absolute;
+  top: 560px;
+  width: 680px;
+  color: #fff;
+  text-transform: capitalize;
+  padding: 15px 10px;
+  background-color: #666666;
+  visibility: hidden;
+}
+
+#wrapper > #right-side-content > #altenberger {
+  top: 770px;
+}
+
+#wrapper > #right-side-content > #mont-saint-michel {
+  top: 500px;
+}
+
+#wrapper > #right-side-content > #moscow {
+  top: 470px;
+}
+
+#wrapper > #right-side-content > #florence {
+  visibility: visible;
+}

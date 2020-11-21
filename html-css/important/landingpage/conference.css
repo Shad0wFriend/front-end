@@ -1,0 +1,465 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+}
+
+#first-background-img {
+  position: relative;
+  background: url("images/header-bg.png") no-repeat;
+  background-size: 1920px;
+  height: 900px;
+}
+
+#first-background-img-cover {
+  position: absolute;
+  top: 0;
+  height: 900px;
+  width: 1903px;
+  background-color: #4F525B;
+  opacity: 0.8;
+  color: #fff;
+}
+
+#first-background-img-cover > nav > ul {
+  width: 1860px;
+  position: relative;
+  top: 50px;
+  left: 40px;
+}
+
+#first-background-img-cover > nav > ul > li {
+  list-style: none;
+  display: inline-block;
+}
+
+#first-background-img-cover > nav > ul > li > a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+#first-background-img-cover > nav > ul > li > a:hover {
+  color: #FA6A2E;
+  cursor: pointer;
+}
+
+#first-background-img-cover > nav > ul > li:nth-of-type(1)  {
+  margin-left: 10px;
+}
+
+#first-background-img-cover > nav > ul > li:nth-of-type(2)  {
+  margin-left: 1250px;
+}
+
+#first-background-img-cover > nav > ul > .right-side-links  {
+  padding: 0 20px;
+}
+
+#first-background-img-cover > header  {
+  position: relative;
+  top: 340px;
+  font-size: 31px;
+}
+
+#first-background-img-cover > header > p {
+  position: relative;
+  left: 530px;
+  width: 700px;
+  text-align: justify;
+}
+
+#first-background-img-cover > header > i {
+  position: relative;
+  top: -50px;
+  left: 1370px;
+  font-size: 55px;
+}
+
+#first-background-img-cover > header > i:hover {
+  color: #FA6A2E;
+  cursor: pointer;
+}
+
+#first-background-img-cover > div {
+  position: absolute;
+  top:  600px;
+  left: 50px;
+  height: 290px;
+  width: 470px;
+}
+
+#first-background-img-cover > div:hover {
+  border-bottom: 10px solid #FA6A2E;
+  cursor: pointer;
+}
+
+#first-background-img-cover > div > i {
+  font-size: 30px;
+}
+
+#first-background-img-cover > div > p {
+  position: relative;
+  top: 50px;
+  width: 400px;
+}
+
+#first-background-img-cover > div:nth-of-type(2)  {
+  left: 550px;
+}
+
+#first-background-img-cover > div:nth-of-type(3)  {
+  left: 1050px;
+  width: 420px;
+}
+
+#first-background-img-cover > div:nth-of-type(4)  {
+  left: 1500px;
+  width: 300px;
+}
+
+main > #first-section {
+  height: 700px;
+  width: 1890px;
+}
+
+main > #first-section > h1 {
+  position: relative;
+  top: 200px;
+  left: 270px;
+  width: 368px;
+  text-align: justify;
+  text-align-last: right;
+}
+
+main > #first-section > span {
+  position: relative;
+  top: 280px;
+  left: 470px;
+}
+
+main > #first-section > figure {
+  position: relative;
+  top: 25px;
+  left: 770px;
+  height: 550px;
+  width: 1000px;
+}
+
+main > #first-section > figure > figcaption {
+  text-align: left;
+  height: 550px;
+  width: 580px;
+  font-size: 20px;
+}
+
+main > #first-section > figure > div {
+  position: relative;
+  top: -230px;
+  width: 580px;
+  border-top: 1px solid #000;
+}
+
+main > #first-section > figure > div > h3 {
+  position: relative;
+  top: 30px;
+  font-size: 21px;
+}
+
+main > #first-section > figure > img {
+  position: relative;
+  top: -620px;  
+  left: 700px;
+  height: 500px;
+}
+
+main > #first-section > div {
+  position: absolute;
+  top: 900px;
+  left: 1300px;
+  height: 640px;
+  width: 540px;
+  background-color: #FB8758;
+  opacity: 0.8;
+}
+
+main > #second-section {
+  position: relative;
+  height: 750px;
+  background-color: #3C3E4A;
+  color: #fff;
+}
+
+main > #second-section > h2 {
+  position: relative;
+  top: 75px;
+  left: 150px;
+  width: 440px;
+}
+
+main > #second-section > article {
+  position: relative;
+  top: 230px;
+  height: 400px;
+}
+
+main > #second-section > article > div { 
+  position: absolute;
+  left: 185px;
+}
+
+main > #second-section > article > div > div {
+  background-color: #FA6A2F;
+  height: 50px;
+  width: 50px;
+  border-radius: 50px;
+}
+
+main > #second-section > article > div > div > i {
+  position: relative;
+  top: 17px;
+  left: 20px;
+}
+
+main > #second-section > article > div:nth-of-type(1) > div > i {
+  left: 18px;
+} 
+
+main > #second-section > article > div > span {
+  position: relative;
+  top: -40px;
+  left: 85px;
+}
+
+main > #second-section > article > div > span:nth-of-type(2)  {
+  text-transform: capitalize;
+  left: 120px;
+  opacity: 0.7;
+}
+
+main > #second-section > article > div:nth-of-type(2) {
+  top: 150px;
+}
+
+main > #second-section > article > div:nth-of-type(3) {
+  top: 300px;
+}
+
+main > #second-section > article > div:nth-of-type(4) {
+  left: 1060px;
+}
+
+main > #second-section > article > div:nth-of-type(5) {
+  top: 150px;
+  left: 1060px;
+}
+
+main > #second-section > article > div:nth-of-type(6) {
+  top: 300px;
+  left: 1060px;
+}
+
+main > #third-section {
+  height: 800px;  
+}
+
+main > #third-section > h2 {
+  position: relative;
+  top: 50px;
+  left: 220px;
+  width: 530px;
+}
+
+main > #third-section > p {
+  position: relative;
+  top: 20px;
+  left: 750px;
+  font-size: 18px;
+  width: 800px;
+}
+
+main > #third-section > article {
+  position: relative;
+  top: 100px;
+  height: 600px;
+}
+
+main > #third-section > article > div {
+  position: absolute;
+  left: 490px;
+  height: 430px;
+  width: 300px;
+  box-shadow: 16px 15px 15px -14px grey;
+}
+
+main > #third-section > article > div > span:nth-of-type(1) {
+  position: relative;
+  top: 30px;
+  left: 35px;
+  color: #000;
+  text-transform: capitalize;
+  font-size: 20px;
+}
+
+main > #third-section > article > div > i {
+  position: relative;
+  top: 29px;
+  left: 35px;
+}
+
+main > #third-section > article > div > i:hover {
+  color: #FA6A2E;
+  cursor: pointer;
+}
+
+main > #third-section > article > div > span:nth-of-type(2) {
+  position: relative;
+  top: 80px;
+  left: -102px;
+  color: #D7C0B8;
+  text-transform: uppercase;
+}
+
+main > #third-section > article > div:nth-of-type(1) > span:nth-of-type(2)  {
+  display: block;
+  top: 60px;
+  left: 35px;
+}
+
+main > #third-section > article > div:nth-of-type(2) > span:nth-of-type(2)  {
+  left: -113px;
+}
+
+main > #third-section > article > div:nth-of-type(3) > span:nth-of-type(2)  {
+  left: -92px;
+}
+
+main > #third-section > article > div:nth-of-type(4) > span:nth-of-type(2)  {
+  left: -100px;
+}
+
+main > #third-section > article > div:nth-of-type(5) > span:nth-of-type(2)  {
+  left: -90px;
+}
+
+main > #third-section > article > div:nth-of-type(2)  {
+  left: 830px;
+}
+
+main > #third-section > article > div:nth-of-type(3)  {
+  left: 1170px;
+}
+
+main > #third-section > article > div:nth-of-type(4)  {
+  top: 470px;
+}
+
+main > #third-section > article > div:nth-of-type(5)  {
+  top: 470px;
+  left: 830px;
+}
+
+main > #third-section > article > div:nth-of-type(6)  {
+  top: 470px;
+  left: 1170px;
+}
+
+main > #fourth-section {
+  position: relative;
+  top: 330px;
+  height: 590px;
+  background-color: #3C3E4A;
+}
+
+main > #fourth-section > form {
+  position: relative;
+  top: 100px;
+  left: 575px;
+  height: 400px;
+  width: 830px;
+  text-align: center;
+  border: 1px solid grey;
+  color: #fff;
+}
+
+main > #fourth-section > form > span {
+  position: relative;
+  top: 75px;
+  text-transform: uppercase;
+  font-size: 40px;
+}
+
+main > #fourth-section > form > p {
+  position: relative;
+  top: 120px;
+  left: 130px;
+  width: 570px;
+}
+
+main > #fourth-section > form > div {
+  position: relative;
+  top: 200px;
+  left: -50px;
+}
+
+main > #fourth-section > form > div > input {
+  border: none;
+  background-color: #3C3E4A;
+  color: #fff;
+  border-bottom: 4px solid #FA6A2E;
+  height: 30px;
+  font-size: 18px;
+}
+
+main > #fourth-section > form > div > input::placeholder  {
+  color: #fff;
+}
+
+main > #fourth-section > form > button {
+  position: relative;
+  top: 162px;
+  left: 185px; 
+  border: none;
+  border-radius: 50px;
+  background-color: #FA6A2E;
+  padding: 10px;
+}
+
+main > #fourth-section > form > button > a {
+  color: #fff;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 10px 20px;
+  font-size: 17px;
+}
+
+main > #fourth-section > form > button:hover {
+  background-color: #333331;
+  cursor: pointer;
+}
+
+footer {
+  position: relative;
+  top: 330px;
+  height: 100px;
+  background-color: #292A2F;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+footer > span {
+  position: relative;
+  top: 40px;
+  left: 10px;
+}
+
+footer > p {
+  position: relative;
+  top: 20px;
+  left: 1640px;
+  width: 240px;
+  color: grey;
+}

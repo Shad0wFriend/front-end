@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #927057;
+  font-family: 'Roboto', sans-serif;
+}
+
+#main-picture-div {
+  position: relative;
+  top: 80px;
+  text-align: center;
+}
+
+#main-picture-div > img {
+  outline: 6px solid #D5C395;
+}
+
+#triangle-picture-div {
+  position: relative;
+  top: 120px;
+  text-align: center;
+}
+
+form {
+  position: relative;
+  top: 115px;
+  left: 615px;
+  height: 450px;
+  width: 700px;
+  background-color: #D5C395;
+}
+
+form > h1 {
+  position: relative;
+  top: 70px;
+  left: 50px;
+  color: #fff;
+  font-size: 35px;
+  text-transform: capitalize;
+}
+
+form > .outter-div {
+  position: relative;
+  top: 100px;
+  left: 50px;
+  width: 570px;
+  background-color: #EFE1C4;
+  padding: 10px;
+  border-radius: 5px;
+  height: 40px;
+}
+
+form > .outter-div > div {
+  position: relative;
+  top: 6px;
+}
+
+form > .outter-div > div > i {
+  position: relative;
+  left: 5px;
+  font-size: 30px;
+  color: #927057;
+}
+
+form > div > input {
+  position: relative;
+  top: -20px;
+  left: 65px;
+  border: none;
+  background: none;
+  font-size: 20px;
+  color: #B0BDBA;
+}
+
+form > div:nth-of-type(2) {
+  top: 140px;
+}
+
+form > button {
+  position: relative;
+  top: 180px;
+  left: 50px;
+  width: 590px;
+  padding: 15px;
+  background-color: #927057;
+  border: none;
+  border-radius: 5px;
+}
+
+form > button > a {
+  text-decoration: none;
+  color: #D8C698;
+  font-size: 25px;
+  text-transform: capitalize;
+  font-weight: bold;
+}
+
+footer {
+  position: relative;
+  top: 140px;
+  text-align: center;
+  font-size: 18px;
+  color: #EEDCA2;
+}

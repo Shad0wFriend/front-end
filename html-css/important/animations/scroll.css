@@ -1,0 +1,162 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #EFEFEF;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 18px;
+}
+
+#wrapper {
+  position: relative;
+  top: 20px;
+  left: 450px;
+  height: 1800px;
+  width: 1020px;
+  background-color: #fff;
+}
+
+#wrapper > #heading {
+  position: relative;
+  top: 50px;
+  left: 25px;
+  height: 380px;
+  width: 750px;
+}
+
+#wrapper > #heading > .heading-container {
+  height: 150px;  
+}
+
+#wrapper > #heading > #first-heading > p:nth-of-type(1) {
+  font-size: 35px;
+  font-weight: 500;
+}
+
+#wrapper > #heading > .heading-container > .container-text {
+  margin-top: 20px;
+}
+
+#wrapper > #heading > #second-heading > p:nth-of-type(1) {
+  font-size: 26px;
+  text-transform: capitalize;
+}
+
+#wrapper > section {
+  position: relative;
+  left: 25px;
+  width: 970px;
+}
+
+#wrapper > section > article {
+  position: absolute;
+  height: 200px;
+  width: 470px;
+  background-color: #F5F5F5;
+  animation: expand 1s linear;
+  animation-iteration-count: initial;
+  animation-play-state: paused;
+}
+
+#wrapper > section > article > img {
+  border-radius: 50%;
+  height: 70px;
+  width: 70px;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+#wrapper > section > article > .name {
+  position: relative;
+  top: 20px;
+  left: 100px;
+  font-weight: 500;
+  font-size: 25px;
+}
+
+#wrapper > section > article > .description {
+  position: relative;
+  top: 60px;
+  left: -35px;
+}
+
+#wrapper > section > article > p {
+  position: relative;
+  top: 80px;
+  left: 10px;
+  font-size: 17px;
+  width: 95%;
+  text-align: justify;
+}
+
+#wrapper > section > article:nth-of-type(1) > .description, #wrapper > section > article:nth-of-type(2) > .description {
+  top: 30px;
+  left: 100px;
+  display: block;
+}
+
+#wrapper > section > article:nth-of-type(1) > p, #wrapper > section > article:nth-of-type(2) > p {
+  top: 40px;
+}
+
+#wrapper > section > article:nth-of-type(3) > .description {
+  left: -60px;
+}
+
+#wrapper > section > article:nth-of-type(2) {
+  left: 495px;
+}
+
+#wrapper > section > article:nth-of-type(3) {
+  top: 250px;
+}
+
+#wrapper > section > article:nth-of-type(4) {
+  top: 250px;
+  left: 495px;
+}
+
+#wrapper > section > article:nth-of-type(5) {
+  top: 500px;
+}
+
+#wrapper > section > article:nth-of-type(6) {
+  top: 500px; 
+  left: 495px;
+}
+
+#wrapper > section > article:nth-of-type(7) {
+  top: 750px;
+}
+
+#wrapper > section > article:nth-of-type(8) {
+  top: 750px;
+  left: 495px;
+}
+
+#wrapper > section > article:nth-of-type(9) {
+  top: 1000px;
+}
+
+#wrapper > section > article:nth-of-type(10) {
+  top: 1000px;
+  left: 495px;
+}
+
+#wrapper > section > article:hover {
+  animation-play-state: running;
+}
+
+@keyframes expand {
+  50%{
+    transform: scale(1.1);
+    animation-delay: 0.2s;
+  }
+  100% {
+    transform: scale(1);
+    animation-delay: 0.2s;
+  }
+}

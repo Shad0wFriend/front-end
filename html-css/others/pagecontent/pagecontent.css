@@ -1,0 +1,31 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+
+section {
+  background-color: grey;
+}
+
+section article {
+padding: 20px 20px 5px 20px;
+}
+
+header {
+  text-transform: capitalize;
+  font-weight: bold;
+  font-size: 40px;
+}
+
+.italics {
+  font-style: italic;
+  font-size: 30px;
+}
+
+.outter {
+  margin: 10px 0;
+}
+
+p {
+  font-size: 40px;
+}

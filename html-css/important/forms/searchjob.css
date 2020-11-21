@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+nav {
+  background-color: #384452;
+}
+
+nav > ul {
+  text-align: left;
+  position: relative;
+  left: 120px;
+  width: 1500px;
+  font-size: 20px;
+}
+
+nav > ul > li {
+  list-style: none;
+  display: inline-block;
+  padding: 30px 50px;
+  font-size: 25px;
+}
+
+nav > ul > li > i {
+  color: #8BAEC2;  
+  padding-right: 7px;
+}
+
+nav > ul > li > a {
+  color: #8BAEC2;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+nav > ul > li:nth-of-type(1):hover  {
+  background-color: #3BBC96;
+  cursor: pointer;
+}
+
+nav > ul > li:nth-of-type(1):hover i {
+  color: #fff;
+}
+ 
+nav > ul > li:nth-of-type(1):hover a {
+  color: #fff;
+}
+
+form {
+  background-color: #EEEEEE;
+  height: 370px;
+}
+
+form > div {
+  position: absolute;
+  top: 120px;
+  left: 170px;
+  height: 120px;
+  width: 265px;
+}
+
+form > div > span {
+  position: relative;
+  font-size: 25px;
+  text-transform: capitalize;
+  color: #384452;
+}
+
+form > div > input {
+  position: relative;
+  top: 30px;
+  height: 60px;
+  width: 265px;
+  max-width: 270px;
+  font-size: 17px;
+  padding-left: 15px;
+}
+
+form > button {
+  position: relative;
+  top: 190px;
+  left: 1265px;
+  background-color: #000;
+  height: 60px;
+  width: 330px;
+}
+
+form > button > a {
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #fff;
+  font-size: 22px;
+}
+
+form > button:hover {
+  background-color: #3BBC96;
+  cursor: pointer;
+}
+
+form > div:nth-of-type(2) {
+  left: 535px;
+}
+
+form > div:nth-of-type(3) {
+  left: 900px;
+}
+
+form > div:nth-child(4) {
+  left: 1265px;
+}
+
+form > div:nth-child(5) {
+  top: 310px;
+}
+
+form > div:nth-child(6) {
+  top: 310px;
+  left: 535px;
+}
+
+form > div:nth-child(7) {
+  top: 310px;
+  left: 900px;
+}

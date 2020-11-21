@@ -1,0 +1,60 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  font-family: 'Mali', cursive;
+  font-size: 25px;
+}
+
+article {
+  border: 2px solid grey;
+  margin: 50px 10px;
+}
+
+.containers {
+  background-color: blue;
+  border-radius: 10px;
+  height: 50px;
+  width: 150px;
+  text-align: center;
+}
+
+article > div > #left-float {
+  float: left;
+  margin-left: 5px;
+}
+
+.spans {
+  font-size: 17px;
+  line-height: 45px;
+}
+
+article > div > #left-float-text {
+  margin: 5px 5px 0 161px;
+  text-align: justify;
+}
+
+article > #second-float-container {
+  margin: 20px 0;
+}
+
+article > div > #right-float {
+  float: right;
+  margin-right: 5px;
+}
+
+article > div > #right-float-text {
+  text-align: justify;
+  margin: 0 160px 0 5px;
+}
+
+article > div > #center-positioned {
+  margin-left: 820px;
+}
+
+article > div > #center-text {
+  text-align: justify;
+  margin: 10px 5px;
+}

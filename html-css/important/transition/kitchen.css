@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: linear-gradient(to bottom,  #f5f6f6 0%,#c4c4c4 100%) fixed;
+}
+
+h1 {
+  text-align: center;
+  font-size: 40px;
+  opacity: 0.6;
+  margin-top: 20px;
+}
+
+#wrapper {
+  position: relative;
+  text-align: center;
+  margin-top: 50px;
+  height: 210px;
+}
+
+#wrapper > .box {
+  display: inline-block;
+  margin: 0 20px;
+  border: 5px solid #fff;
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+}
+
+#wrapper > .box > img {
+  border-radius: 50%;
+}
+#wrapper > #kitchen-container > #kitchen-cover {
+  position: absolute;
+  top: 5px;
+  background-color: #000;
+  opacity: 0;
+  border-radius: 50%;
+  height: 200px;
+  width: 200px;
+  color: #fff;
+}
+
+#wrapper > #kitchen-container > #kitchen-cover > p {
+  padding-top: 95px;
+  font-size: 20px;
+  text-transform: capitalize;
+}
+
+#wrapper > #kitchen-container > #kitchen-cover:hover {
+  opacity: 0.7;
+  transition: all 0.2s;
+  cursor: pointer;
+}
+
+#wrapper > #living-room-container {
+  background-color: #000;
+  height: 200px;
+  width: 200px;
+  color: #fff;  
+}
+
+#wrapper > #living-room-container > p {
+  line-height: 200px;
+  text-align: center;
+  text-transform: capitalize;
+  font-size: 20px;
+}
+
+#wrapper > #living-room-container > #living-room-inside {
+  position: relative;
+  top: -200px;
+  background: url("img/living-room-image.jpg") no-repeat;  
+  border-radius: 50%;
+  border-radius: 50%;
+  height: 200px;
+  width: 200px;
+}
+
+#wrapper > #living-room-container:hover {
+  cursor: pointer;
+}
+
+#wrapper > #living-room-container:hover #living-room-inside {
+  margin-left: 200px;
+  transition: all 2s 0.2s;
+}
+
+#wrapper > #bedroom-container > #bedroom-cover {
+  position: relative;
+  top: -205px;
+  left: -200px;
+  background-color: #000;
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  visibility: hidden;
+  opacity: 0.7;
+  color: #fff;
+}
+
+#wrapper > #bedroom-container > #bedroom-cover > p {
+  padding-top: 95px;
+  text-transform: capitalize;
+  font-size: 20px;
+}
+
+#wrapper > #bedroom-container:hover #bedroom-cover {
+  left: 0px;
+  visibility: visible;
+  transition: all 2s;
+  cursor: pointer;
+}

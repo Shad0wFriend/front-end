@@ -1,0 +1,21 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  font-size: 2rem;
+  background: url("img/the-matrix-1024x576.jpg");
+}
+
+ul {
+  text-align: center;
+}
+
+ul li {
+  list-style: none;
+  display: inline-block;
+  padding: 30px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  text-transform: capitalize;
+}

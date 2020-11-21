@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Nanum Myeongjo', serif;
+}
+
+body {
+  background-color: #BC6C09;
+}
+
+h1 {
+  outline: 2px solid #01D3EF;
+  margin: 20px 0 0 5px;
+  display: inline-block;
+  width: 465px;
+  padding-left: 5px;
+  background: none;
+  color: #01D3EF;
+}
+
+nav {
+  text-align: right;
+}
+
+nav > ul {
+  margin: -20px 300px 0 0;
+}
+
+ul > li {
+  list-style: none;
+  display: inline-block;
+  padding: 0 40px;
+  margin: 0 20px;
+  border: 3px double #DC8704;
+  border-radius: 10px;
+  height: 60px;
+  background: none;
+  line-height: 60px;
+}
+
+li > a {
+  text-decoration: none;
+  color: #EBEB01;
+  text-transform: capitalize;
+  font-size: 25px;
+}
+
+section {
+  background-color: #E0AC1D;
+  margin: 30px 10px;
+  border-radius: 10px;
+}
+
+section > article {
+  padding: 30px 0;
+}
+
+article > figure {
+  border: 1px solid #BFE028;
+  border-radius: 10px;
+  margin: 0 30px;
+  padding: 10px;
+  height: 400px;
+}
+
+article > #bottom-figure {
+  margin-top: -30px;
+}
+
+figure > img {
+  height: 300px;
+  width: 500px;
+  margin: 20px 40px 0 0;
+  float: right;
+}
+
+figure > figcaption {
+  text-align: justify;
+  margin: 20px 560px 0 0;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+figure > #first-button {
+  background-color: #BC6C09;
+  border: 2px dashed black;
+  height: 80px;
+  width: 120px;
+  margin: 70px 0 0 450px;
+}
+
+figure > #second-button {
+  background-color: #BC6C09;
+  border: 2px dashed black;
+  height: 80px;
+  width: 120px;
+  margin: 100px 0 0 450px;
+}
+
+figure > button > a {
+  text-decoration: none;
+  color: #C6A406;
+  text-transform: uppercase;
+  font-size: 15px;
+}
+
+footer {
+  text-align: center;
+  border: 1px dotted black;
+  border-radius: 10px;
+  margin: -20px 10px 0 10px;
+}
+
+footer > p {
+  text-transform: uppercase;
+  color: #EBEB01;
+  font-size: 20px;
+}

@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  position: relative;
+  top: 100px;
+  margin-left: 260px;
+  margin-right: 260px;
+  padding: 20px;
+  background-color: rgb(202, 200, 200);
+  border-radius: 20px;
+  text-align: center;
+}
+
+header > p {
+  text-transform: capitalize;
+  font-size: 30px;
+  color: blueviolet;
+}
+
+section > div {
+  position: absolute;
+  top: 220px;
+  left: 310px;
+  height: 370px;
+  width: 300px;
+  border-radius: 20px;
+  background-color: rgb(224, 222, 222);
+}
+
+section > div > div {
+  height: 250px;
+  width: 260px;
+  margin: 10px 20px;
+  border-radius: 50%;
+  background-color: blueviolet;
+  text-align: center;
+}
+
+section > div > div:hover {
+  background-color: #fff;
+  cursor: pointer;
+}
+
+section > div > div:hover span {
+  color: blueviolet;
+}
+
+section > div > div > span {
+  position: relative;
+  top: 100px;
+  font-size: 45px;
+  color: #fff;
+}
+
+section > div > p {
+  position: relative;
+  text-align: center;
+  top: 10px;
+  opacity: 0.4;
+}
+
+section > div > button {
+  position: relative;
+  top: 30px;
+  left: 10px;
+  background: none;
+  border-radius: 10px;
+  width: 280px;
+  padding: 10px;
+  background-color: rgb(202, 200, 200);
+  border: none;
+}
+
+section > div > button:hover {
+  background-color: #fff;
+  cursor: pointer;
+}
+
+section > div > button > a {
+  text-transform: capitalize;
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+  opacity: 0.5;
+}
+
+section > #second-div {
+  left: 642px;
+}
+
+section > #third-div {
+  left: 975px;
+}
+
+section > #fourth-div {
+  left: 1310px;
+}

@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #927057;
+  font-family: 'Roboto', sans-serif;
+}
+
+#main-picture-div {
+  position: relative;
+  top: 80px;
+  text-align: center;
+}
+
+#main-picture-div > img {
+  outline: 6px solid #D5C395;
+}
+
+#triangle-picture-div {
+  position: relative;
+  top: 120px;
+  text-align: center;
+}
+
+form {
+  position: relative;
+  top: 115px;
+  left: 615px;
+  height: 450px;
+  width: 700px;
+  background-color: #D5C395;
+}
+
+form > h1 {
+  position: relative;
+  top: 70px;
+  left: 50px;
+  color: #fff;
+  font-size: 35px;
+  text-transform: capitalize;
+}
+
+form > div {
+  position: relative;
+  top: 100px;
+  left: 50px;
+  width: 570px;
+  background-color: #EFE1C4;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+form > div > input {
+  position: relative;
+  text-align: center;
+  width: 180px;
+  border: none;
+  background: none;
+  font-size: 20px;
+  color: #B0BDBA;
+}
+
+form > div > #first-input {
+  background: url("images/user.png") no-repeat;
+  background-position-x: 1px;
+}
+
+form > div > #second-input {
+  background: url("images/pass.png") no-repeat;
+  background-position-x: 1px;
+}
+
+form > div:nth-of-type(2) {
+  top: 140px;
+}
+
+form > button {
+  position: relative;
+  top: 180px;
+  left: 50px;
+  width: 590px;
+  padding: 15px;
+  background-color: #927057;
+  border: none;
+  border-radius: 5px;
+}
+
+form > button > a {
+  text-decoration: none;
+  color: #D8C698;
+  font-size: 25px;
+  text-transform: capitalize;
+  font-weight: bold;
+}
+
+footer {
+  position: relative;
+  top: 140px;
+  text-align: center;
+  font-size: 18px;
+  color: #EEDCA2;
+}

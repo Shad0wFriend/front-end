@@ -1,0 +1,188 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(221, 220, 220);
+  display: flex;
+}
+
+h1 {
+  position: relative;
+  left: 41%;
+  height: 80px;
+  width: 30%;
+  text-transform: capitalize;
+  opacity: 0.5;
+  font-size: calc(20px + 1.5vw);
+}
+
+form {
+  position: relative;
+  top: 3.5vw;
+  left: -10%;
+  height: 590px;
+  width: 60%;
+  background-color: #fff;
+}
+
+form > .sides {
+  position: relative;
+  top: 10px;
+  left: 2%;
+  width: 49%;
+  height: 650px;
+}
+
+form > #right-side {
+  top: -640px;
+  left: 51%;
+}
+
+form > .sides > div {
+  height: 80px;
+  width: 98%;
+}
+
+form > .sides > div > span {
+  text-transform: capitalize;
+  font-size: 18px;
+}
+
+form > .sides > div > span::after {
+  content: "*";
+  color: red;
+  margin-left: 3px;
+}
+
+form > .sides > div > div {
+  position: relative;
+  top: 10px;
+  height: 35px;
+  width: 40px;
+  background-color: #EEEEEE;
+  border-radius: 5px 0 0 5px;
+}
+
+form > .sides > div > div > i {
+  margin: 10px 0 0 10px;
+}
+
+form > .sides > div > input,textarea {
+  position: relative;
+  top: -25px;
+  left: 32px;
+  width: 80%;
+  padding: 9px 0;
+  border-radius: 0 5px 5px 0;
+  border: 1px solid #EEEEEE;
+}
+
+form > .sides > div > textarea {
+  height: 95px;
+}
+
+form > button {
+  position: relative;
+  top: -770px;
+  left: 2%;
+  width: 96%;
+  padding: 15px 0;
+  border: none;
+  border-radius: 5px;
+  background-color: #81BDA4;
+  color: #fff;
+}
+
+form > button > a {
+  text-transform: capitalize;
+  text-decoration: none;
+  color: #fff;
+  font-size: 20px;
+}
+
+form > button:hover {
+  cursor: pointer;
+}
+
+form > #left-side > div:nth-of-type(1) > div > i {
+  margin-left: 11px;
+}
+
+form > #left-side > div:nth-of-type(2) > div > i {
+  margin-left: 10px;
+}
+
+form > #left-side > div:nth-of-type(3) > div > i {
+  margin-left: 9px;
+}
+
+form > #left-side > div:nth-of-type(4) > div > i {
+  margin-left: 9px;
+}
+
+form > #left-side > div:nth-of-type(6) > div > i {
+  margin-left: 12px;
+}
+
+form > #right-side > div:nth-of-type(3) > div > i {
+  margin-left: 14px;
+}
+
+@media all and (max-width:970px){
+  form {
+    top: 4.5vw;
+  }
+}
+
+@media all and (max-width: 660px){
+  h1 {
+    left: 40%;
+    width: 40%;
+  }
+
+  form {
+    top: 6vw;
+    left: -18%;
+    height: 1070px;
+  }
+
+  form > .sides {
+    display: inline-block;
+  }
+
+  form > #left-side {
+    top: -5px;
+  }
+
+  form > #right-side {
+    top: 490px;
+    left: -47%;
+  }
+
+  form > .sides > div > input, textarea {
+    width: 170%;
+  }
+
+  form > button {
+    top: 350px;
+  }
+}
+
+@media all and (max-width: 518px){
+  h1 {
+    left: 35%;
+  }
+
+  form > #left-side {
+    top: 5px;
+  }
+
+  form > #left-side > div:nth-of-type(6) {
+    margin-top: 20px;
+  }
+  form > #right-side {
+    top: 500px;
+  }
+}

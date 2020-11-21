@@ -1,0 +1,38 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Lato,sans-serif;
+}
+
+nav {
+  background-color: aqua;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+nav ul li {
+  list-style: none;
+  display: inline-block;
+  padding: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  text-transform: capitalize;
+  font-size: 25px;
+  color: white;
+  line-height: 40px;
+}
+
+nav ul li:hover {
+  background-color: green;
+}
+
+nav ul li a:hover {
+  color: white;
+  cursor: pointer;
+}

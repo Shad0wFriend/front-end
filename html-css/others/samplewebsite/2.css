@@ -1,0 +1,192 @@
+body {
+  background-color: #e2d7aa;
+  font-family: Roboto,sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul {
+  text-align: center;
+  margin: 0 0 0 40px;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline-block;
+  padding: 20px 15px;
+  line-height: 40px;
+  height: 40px;
+  list-style:none;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: black;
+  text-transform: capitalize;
+  font-size: 30px;
+  vertical-align: middle;
+}
+
+.boldened-link {
+  font-weight: bold;
+  color: rgb(36, 36, 93);
+}
+
+h1 {
+  text-align: center;
+  font-size: 45px;
+  text-transform: capitalize;
+  font-family: Indie Flower, cursive;
+  margin-top: 30px;
+}
+
+#mayan-image {
+  margin: 30px 0 0 200px;
+  width: 1500px;
+  height: 600px;
+}
+
+article {
+  position: absolute;
+}
+
+#first-heading {
+  margin:10px 0 0 275px;
+  text-transform: capitalize;
+  font-size: 25px;
+}
+
+#first-under-heading  {
+  margin: -2px 20px -12px 280px;
+  font-size: 20px;
+}
+
+.article-images {
+  height: 300px;
+  width: 400px;
+}
+
+#first-image {
+  margin: 0 0 0 200px;
+}
+
+#roman-text {
+  text-align: justify;
+  margin-left: 200px;
+  margin-right: 67%;
+  margin-top: 20px;
+}
+
+#second-heading {
+  margin: 10px 0 0 825px;
+  text-transform: capitalize;
+  font-size: 26px;
+}
+
+#second-under-heading {
+  margin: -2px 0 -52px 830px;
+  font-size: 20px;
+}
+
+#greek-text {
+  text-align: justify;
+  margin-left: 750px;
+  margin-right: 37%;
+  margin-top: 20px;
+}
+
+#second-image {
+  margin: 40px 0 0 750px;
+}
+
+#third-heading {
+  margin: 10px 0 0 1375px;
+  text-transform: capitalize;
+  font-size: 26px;
+}
+
+#third-under-heading  {
+  margin: -2px 0 -52px 1380px;
+  font-size: 20px;
+}
+
+#indian-text {
+  text-align: justify;
+  margin-left: 1300px;
+  margin-right: 7%;
+  margin-top: 20px;
+}
+
+#third-image {
+  margin: 40px 0  0 1300px;
+}
+
+.letter-capitalized::first-letter {
+  font-weight: bold;
+  font-size: 30px;
+  text-transform: capitalize;
+}
+
+.comment-box {
+  background: url("images/bg2.jpg");
+  position: absolute;
+  width: 180px;
+}
+
+#first-comment-box {
+  margin: 12px 0 0 200px;
+}
+
+#second-comment-box {
+  margin: 12px 0 0 750px;
+}
+
+#third-comment-box {
+  margin: 12px 0 0 1300px;
+}
+
+.post-box {
+  background: url("images/bg2.jpg");
+  position: absolute;
+  height: 36px;
+  width: 125px;
+}
+
+#first-post-box {
+  margin: 12px 0 0 385px;
+}
+
+#second-post-box {
+  margin: 12px 0 0 935px;
+}
+
+#third-post-box {
+  margin: 12px 0 0 1485px;
+}
+
+.comment-link {
+  text-decoration: none;
+  font-size: 18px;
+  color: white;
+  text-transform: uppercase;
+  margin-left: 10px;
+}
+
+.post-link {
+  text-decoration: none;
+  font-size: 18px;
+  color: white;
+  text-transform: uppercase;
+  margin-left: 12px;
+  line-height: 38px;
+}
+
+.comment-image {
+  margin-top: 7px;
+  margin-left: 12px;
+}
+
+footer {
+  margin-top: 40%;
+  text-align: center;
+}

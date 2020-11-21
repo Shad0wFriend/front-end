@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #F0F0E8;
+}
+
+header {
+  margin: 50px 50px 0 50px;
+  padding: 20px;
+  text-align: center;
+}
+
+header > h1 {
+  color: #009288;
+  text-transform: capitalize;
+  font-size: 62px;
+}
+
+div {
+  text-align: center;
+  font-size: 25px;
+  font-weight: 600;
+  opacity: 0.5;
+}
+
+div > p {
+  margin-bottom: 20px;
+}
+
+section > figure {
+  position: absolute;
+  top: 300px;
+  left: 350px;
+  height: 250px;
+  width: 270px;
+  text-align: center;
+}
+
+section > figure > img {
+  position: relative;
+  top: 50px;
+}
+
+section > figure > h3 {
+  position: relative;
+  top: 60px;
+  font-size: 25px;
+  opacity: 0.7;
+}
+
+section > figure > p {
+  position: relative;
+  top: 75px;
+  font-size: 19px;
+  opacity: 0.8;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+section > figure:hover {
+  cursor: pointer;
+  border-left: 15px solid #009288;
+  background-color: #F6F6F5;
+}
+
+section > figure:hover img {
+  position: relative;
+  left: -15px;
+}
+
+section > figure:hover h3 {
+  left: -15px;
+  opacity: 0.7;
+}
+
+section > figure:hover p {
+  left: -15px;
+  opacity: 0.8;
+}
+
+section > #second-figure {
+  left: 670px;
+}
+
+section > #third-figure {
+  left: 990px;
+}
+
+section > #fourth-figure {
+  left: 1310px;
+}

@@ -1,0 +1,139 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Lato,sans-serif;
+}
+
+div {
+  background: url("images/car-future.jpg"),repeat;
+  height: 1300px;
+  width: 100%;
+}
+
+nav ul {
+  margin-top: -20px;
+  margin-right: 30px;
+  text-align: right;
+}
+
+nav ul li {
+  list-style: none;
+  padding: 20px;
+  display: inline-block;
+  line-height: 100px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: black;
+  text-transform: uppercase;
+  font-size: 25px;
+}
+
+nav ul li a:hover {
+  color: #BFA094;
+}
+
+h1 {
+  margin:140px 0 0 65px;
+  font-size: 100px;
+  color: #B38575;
+  text-transform: uppercase;
+}
+
+.article-images {
+  height: 350px;
+  width: 500px;
+}
+
+#first-heading {
+  color: #B38575;
+  text-transform: uppercase;
+  font-size: 30px;
+  margin-left: 35px;
+}
+
+#first-image {
+  margin-top: -30px;
+  float: left;
+}
+
+#first-text {
+  margin: 50px 100px 0 540px;
+  padding-top: 2px;
+  text-align: justify;
+  font-size: 25px;
+}
+
+#first-text:first-letter {
+  font-style: oblique;
+  font-size: 30px;
+  font-weight: bold;
+  text-transform: capitalize;
+  color: #B38575;
+}
+
+#second-heading {
+  color: #B38575;
+  text-transform: uppercase;
+  font-size: 30px;
+  margin-left: 35px;
+  margin-top: 70px;
+}
+
+#second-image {
+  margin-top: -10px;
+  float: left;
+}
+
+#second-text {
+  margin: 0 100px 0 540px;
+  padding-top: 30px;
+  text-align: justify;
+  font-size: 25px;
+}
+
+#second-text::first-letter {
+  font-size: 30px;
+  font-weight: bold;
+  font-style: oblique;
+  color: #B38575;
+  text-transform: capitalize;
+}
+
+#third-heading {
+  margin: 122px 0 0 38px;
+  font-size: 30px;
+  text-transform: uppercase;
+  color: #B38575;
+}
+
+#third-image {
+  margin-top: 1px;
+  float: left;
+}
+
+#third-text {
+  margin-left: 540px;
+  margin-right: 100px;
+  padding-top: 40px;
+  font-size: 25px;
+  text-align: justify;
+}
+
+#third-text::first-letter {
+  text-transform: capitalize;
+  font-size: 30px;
+  font-style: oblique;
+  font-weight: bold;
+  color: #B38575;
+}
+
+footer {
+  margin-top: 130px;
+  text-align: center;
+}
+
+footer p {
+  font-size: 20px;
+}

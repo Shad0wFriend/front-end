@@ -1,0 +1,71 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  font-family: 'Mali', cursive;
+}
+
+#h1-container {
+  background-color: brown;
+  border: 2px solid black;
+  text-align: left;
+  margin: 10px 15px;
+  padding-left: 20px;
+  line-height: 110px;
+  height: 120px;
+  color: #fff;
+}
+
+main > #right-side {
+  float: right;
+}
+
+main > #right-side > h2 {
+  font-weight: bold;
+  font-size: 30px;
+  text-transform: capitalize;
+}
+
+main > #right-side > p {
+  padding-top: 30px;
+  text-align: justify;
+  margin-right: 400px;
+  font-size: 17px;
+}
+
+main > ul {
+  margin: 30px 0 0 200px;
+}
+
+main > ul > li {
+  list-style: none;
+  background-color: rgb(108, 161, 240);
+  margin-top: 15px;
+  height: 40px;
+  width: 200px;
+}
+
+main > ul > li > a {
+  text-decoration: none;
+  text-transform: capitalize;
+  font-size: 20px;
+  color: #fff;
+  padding-left: 10px;
+  line-height: 40px;
+}
+
+footer {
+  background-color: brown;
+  border: 2px solid black;
+  margin: 20px 15px;
+  height: 50px;
+}
+
+footer > p {
+  text-transform: capitalize;
+  font-size: 20px;
+  color: #fff;
+  padding: 10px 0 0 20px;
+}

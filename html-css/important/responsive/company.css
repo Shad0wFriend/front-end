@@ -1,0 +1,204 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#logo-container {
+  text-align: center;
+  background-color: #E5E5E5;
+}
+
+nav {
+  height: 80px;
+}
+
+nav > ul > li {
+  text-align: center;
+  list-style: none;
+  width: 13.5%;
+  display: inline-block;
+  line-height: 80px;
+}
+
+nav > ul > li > a {
+  text-decoration: none;
+  color: #000;
+  font-size: calc(0.5rem + 0.5vw);
+}
+
+nav > button {
+  display: none;
+}
+
+main {
+  background-color: #E5E5E5;
+}
+
+main > #first-section {
+  text-align: center;
+  height: 70vw;
+}
+
+main > #first-section > img {
+  max-width: 100%;
+  height: 70vw;
+}
+
+main > #first-section > header {
+  position: relative;
+  top: -40vw;
+  height: 80px;
+  font-size: calc(1rem + 0.6vw);
+}
+
+main > #first-section > header > p {
+  margin-top: 1vw;
+  font-weight: bold;
+}
+
+main > #first-section > #button-wrapper {
+  position: relative;
+  top: -35vw;
+  text-align: center;
+}
+
+main > #first-section > #button-wrapper > div {
+  display: inline-block;
+}
+
+main > #first-section > #button-wrapper > div > button {
+  border: 1px solid #000;
+  border-radius: 5px;
+  background: none;
+  padding: 10px 20px;
+}
+
+main > #first-section > #button-wrapper > div > #subscribe-now {
+  padding: 10px;
+}
+
+main > #first-section > #button-wrapper > div > button > a {
+  text-decoration: none;
+  text-transform: capitalize;
+  color: #000;
+}
+
+main > #first-section > #button-wrapper > div > button:hover {
+  background-color: #A0CE4E;
+  cursor: pointer;
+  border: 1px solid #A0CE4E;
+}
+
+main > #first-section > #button-wrapper > div > button:hover a {
+  color: #fff;
+}
+
+main > #second-section {
+  position: relative;
+  height: 600px;
+}
+
+main > #second-section > #heading { 
+  height: 50px;
+  margin-top: 20px;
+  text-align: center;
+  font-size: calc(0.5rem + 1vw);
+  font-weight: bold;
+}
+
+main > #second-section > article {
+  position: absolute;
+  height: 500px;
+  width: 33%;
+  text-align: left;
+}
+
+main > #second-section > article > img {
+  height: 15vw;
+  max-width: 70%;
+}
+
+main > #second-section > article > span {
+  display: block;
+  margin-left: 5%;
+  margin-top: 2vw;
+  width: auto;
+  font-size: calc(1rem + 0.3vw);
+  font-weight: bold;
+}
+
+main > #second-section > article > p {
+  margin-top: 2vw;
+  width: 75%;
+  font-size: calc(0.7rem + 0.5vw);
+}
+
+main > #second-section > #middle-article {
+  left: 33%;
+}
+
+main > #second-section > #right-article {
+  left: 66%;
+}
+
+@media all and (max-width: 920px){
+  nav {
+    display: flex;
+    height: 70px;
+  }
+  nav > ul {
+    display: none;
+  }
+  nav > button {
+    display: block;
+    height: 40px;
+    width: 40px;
+    margin-left: 20px;
+    background: url("img/menu-icon.png") center no-repeat;
+    color: #fff;
+    background-color: #4C8FEC;
+    border: none;
+    margin-top: 15px;
+    cursor: pointer;
+  }
+  nav > button > ul {
+    display: none;
+  }
+  main > #first-section > #button-wrapper {
+    height: 100px;
+  }  
+  main > #first-section > #button-wrapper > #learn-more-container {
+    position: relative;
+    top: -40px;
+    left: 64px;
+  }
+  main > #first-section > #button-wrapper > #subscribe-now-container {
+    position: relative;
+    top: 10px;
+    right: 50px;
+  }
+  main > #second-section > article {
+    text-align: center;
+    width: auto;
+    background-color: #E5E5E5;
+  }
+  main > #second-section > #middle-article {
+    top: 330px;
+    left: 0;
+  }
+  main > #second-section > #right-article {
+    top: 610px;
+    left: 0;
+    height: 250px;
+  }
+  main > #second-section > article > img {
+    height: auto;
+    max-width: 100%;
+  }
+  main > #second-section > article > span {
+    margin-left: 0;
+  }
+  main > #second-section > article > p {
+    width: 100%;
+  }
+}
