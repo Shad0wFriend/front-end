@@ -1,3 +1,0 @@
-text() -> sets or returns the text content of selected object
-html() -> sets or returns the content of selected object
-val() -> sets or returns the value of form fields
